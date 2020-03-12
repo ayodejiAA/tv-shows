@@ -1,0 +1,50 @@
+.episode-card {
+  width: 48%;
+  height: 230px;
+  background-color: #ffdd6ca6;
+  display: flex;
+  margin: 9px;
+
+  .image-wrap {
+    width: 32%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .episode-details-wrap {
+    width: 68%;
+    padding: 0 10px;
+
+    .header {
+      height: 85%;
+      overflow: hidden;
+
+      h1 {
+        padding: 8px 0 5px 0;
+        font-size: 24px;
+      }
+
+      .body {
+        font-size: 14px;
+      }
+    }
+
+    .footer {
+      height: 15%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      span {
+        font-size: 12px;
+        font-weight: 700;
+        color: #472f02;
+
+        &:nth-child(2) {
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+}

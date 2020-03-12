@@ -1,0 +1,57 @@
+.sidebar {
+  width: 30%;
+  height: 100%;
+
+  .show-details {
+    margin: 50px 10px auto;
+    padding: 20px;
+    color: #433811;
+
+    .season-tags {
+      .heading {
+        margin: 60px 0 10px 0
+      }
+    }
+
+    .summary {
+      margin: 25px 0; 
+      
+      p {
+        line-height: 26px;
+      }
+    }
+
+    .main {
+      display: flex;
+
+      .detailed-items {
+        line-height: 26px;
+        p {
+          font-size: 16px;
+          font-weight: 500;
+          
+          span {
+            font-weight: 400;
+          }
+        }
+      }
+
+      .title-wrap {
+        line-height: 30px;
+        .title {
+          font-size: 24px;
+          margin-bottom: 10px;
+        }
+      }
+
+      .show-image {
+        width: 38%;
+        height: 200px;
+      }
+
+      div {
+        margin: 0 10px;
+      }
+    }
+  }
+}
